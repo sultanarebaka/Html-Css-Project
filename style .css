@@ -1,14 +1,16 @@
 
 
+
+
 body {
-  background-color:#008170;
+  background-color:#005B41;
   color:white;
 }
 #title {
   text-align:center;
-  padding-top:34px;
+  padding-top:14px;
+  font-style:sans-serif;
   
-  margin-bottom:28px;
   
   
 }
@@ -23,7 +25,8 @@ body {
   width:68%;
   margin:40px auto;
   padding:33px;
-  background-color:yellow ;
+  margin-top:0px;
+  background-color:#0F0F0F;
   border-radius: 5px;
 }
 
@@ -32,9 +35,6 @@ fieldset {
   width:90%;
   padding:15px 0;
 }
-
-
-
 
 label,fieldset:first-child input,select,#submit {
   display:block;
