@@ -13,3 +13,22 @@ body {
   text-align:center;
   font-style:italic;
 }
+#survey-form {
+  width:80%;
+  margin:20px auto;
+  padding:25px;
+  background-color:rgba(0,0,0,0.6);
+  border-radius: 5px;
+}
+
+fieldset {
+  border:none;
+  width:100%;
+  padding:15px 0;
+}
+
+label,fieldset:first-child input,select,#submit {
+  display:block;
+  width:100%;
+  border-radius: 5px;
+}
