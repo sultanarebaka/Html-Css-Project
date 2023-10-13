@@ -1,7 +1,4 @@
 
-
-
-
 body {
   background-color:#005B41;
   color:white;
@@ -41,3 +38,61 @@ label,fieldset:first-child input,select,#submit {
   width:100%;
   border-radius: 5px;
 }
+
+textarea {
+  margin-top:5px;
+  display:block;
+  width:100%;
+  
+}
+
+
+fieldset:first-child input,select {
+  margin:3px 0;
+  padding:7px;
+  
+}
+
+fieldset:first-child label {
+  margin:11px 0;
+}
+
+
+fieldset:nth-child(2) label {
+  margin:10px 0;
+}
+
+fieldset:nth-child(2) input {
+  margin:0;
+}
+
+#submit {
+  width:100%;
+  background-color:#008170;
+  margin:20px 0;
+  border:none;
+  height:31px;
+  font-size:17px;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
