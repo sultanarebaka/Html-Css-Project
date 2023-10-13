@@ -1,31 +1,40 @@
 
 
 body {
-  background-color:#008170; 
+  background-color:#008170;
   color:white;
 }
 #title {
   text-align:center;
-  margin-bottom:0;
+  padding-top:34px;
+  
+  margin-bottom:28px;
+  
+  
 }
 #description {
   margin-top:0;
   text-align:center;
   font-style:italic;
+  
 }
+
 #survey-form {
-  width:80%;
-  margin:20px auto;
-  padding:25px;
-  background-color:rgba(0,0,0,0.6);
+  width:68%;
+  margin:40px auto;
+  padding:33px;
+  background-color:yellow ;
   border-radius: 5px;
 }
 
 fieldset {
   border:none;
-  width:100%;
+  width:90%;
   padding:15px 0;
 }
+
+
+
 
 label,fieldset:first-child input,select,#submit {
   display:block;
